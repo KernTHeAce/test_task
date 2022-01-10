@@ -26,7 +26,6 @@ specified period of time.
 * Application display list of Employees.
  
  !!! important "Table will be here"
-     lalala
 
 Pic. 1.1 View the Employees list.
 
