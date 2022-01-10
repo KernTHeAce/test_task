@@ -11,8 +11,7 @@ Application should provide:
 * Updating the list of departments(adding, editing, removing);
 * Display list of employees;
 * Updating the list of employees(adding, editing, removing);
-* Filtering by birth date for employees;
-* Filtering by employees number for departments.
+
 
 ## 1. Employees
 ### 1.1 Display list of Employees
@@ -24,9 +23,6 @@ specified period of time.
 
 * User select item "Employees";
 * Application display list of Employees.
-
-! ! ! danger "table"
-123
 
 Pic. 1.1 View the Employees list.
 
@@ -60,8 +56,6 @@ the list display the following columns:
 * If the user select the menu item "Employees" or "Departments", the data will not be saved to the database and the corresponding form with updated data will be opend.
 
 
-Pic. 1.2. Add employee
-
 When adding a employee, the following details are entred:
 
 * First name - first name of employee;
@@ -91,8 +85,6 @@ When adding a employee, the following details are entred:
 * Data don't save in database, then list of employees resords is displaying to user.
 * If the user select the menu item "Employees" or "Departments", the data will not be saved to the database and the corresponding form with updated data will be opend.
 
-
-Pic. 1.3 Edit order.
 
 When editing a employee, the following details are entred:
 
@@ -129,13 +121,10 @@ Constraints for data validation:
 
 
 
+***
 
-
-
-
-
-## 1. Departments
-### 1.1 Display list of Departments
+## 2. Departments
+### 2.1 Display list of Departments
 
 The mod is designed to view the list of departments, if it possible to display the number of departments for 
 specified period of time.
@@ -177,7 +166,7 @@ When adding a employee, the following details are entred:
 * Name - name of department;
 
 
-### 1.2 Edit the department
+### 2.2 Edit the department
 
 #### Main scenario:
 
@@ -199,22 +188,14 @@ When adding a employee, the following details are entred:
 * If the user select the menu item "Employees" or "Departments", the data will not be saved to the database and the corresponding form with updated data will be opend.
 
 
-Pic. 1.3 Edit department.
+Pic. 2.3 Edit department.
 
 When editing a department, the following details are entred:
 
-* First name - first name of employee;
-* Last name - last name of employee;
-* Department - department, where employee work;
-* Birth date - date of employee birth;
-* Salary - employees salary.
+* Name - name of department;
 
 Constraints for data validation:
-* First name - maximum length of 45 characters;
-* Last name - maximum length of 45 characters;
-* Department - maximum length of 45 characters;
-* Birth date - date in format dd/mm/yy;
-* Salary - maximum length of 8 digits.
+* Name - maximum length of 45 characters;
 
 ### 1.4 Removing the department
 
