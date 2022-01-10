@@ -24,8 +24,9 @@ specified period of time.
 
 * User select item "Employees";
 * Application display list of Employees.
- 
- !!! important "Table will be here"
+
+!!! danger "table"
+
 
 Pic. 1.1 View the Employees list.
 
