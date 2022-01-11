@@ -144,7 +144,7 @@ the list display the following columns:
 * Name of Department - name of department;
 * Employees number - number of employees in this department;
 
-![image](https://user-images.githubusercontent.com/64127128/148958667-bf62b17a-79f8-420e-a0c5-5965d4cde221.png)
+![image](https://github.com/KernTHeAce/test_task/blob/develop/screenshots/Employee_table.png?raw=true)
 
 
 ### 1.2 Add Department
