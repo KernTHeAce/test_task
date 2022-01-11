@@ -28,13 +28,13 @@ Pic. 1.1 View the Employees list.
 
 the list display the following columns:
 
-* First name - first name of employee;
-* Last name - last name of employee;
+* Id - identificator of employee;
+* Employee Full Name - first name and last name of employee;
 * Department - department, where employee work;
 * Birth date - date of employee birth;
 * Salary - employees salary; 
 
-![image](https://user-images.githubusercontent.com/64127128/148945438-ba7d948c-80f3-475e-ae8d-a9ed1c115925.png)
+![image](https://user-images.githubusercontent.com/64127128/148945647-0cff4242-0645-47b1-8e52-2ac22bca8937.png)
 
 
 ### 1.2 Add Employee
@@ -60,11 +60,11 @@ the list display the following columns:
 
 When adding a employee, the following details are entred:
 
-* First name - first name of employee;
-* Last name - last name of employee;
+* Id - identificator of employee;
+* Employee Full Name - first name and last name of employee;
 * Department - department, where employee work;
 * Birth date - date of employee birth;
-* Salary - employees salary; 
+* Salary - employees salary;
 
 ### 1.2 Edit the employee
 
@@ -90,15 +90,15 @@ When adding a employee, the following details are entred:
 
 When editing a employee, the following details are entred:
 
-* First name - first name of employee;
-* Last name - last name of employee;
+* Id - identificator of employee;
+* Employee Full Name - first name and last name of employee;
 * Department - department, where employee work;
 * Birth date - date of employee birth;
-* Salary - employees salary.
+* Salary - employees salary;
 
 Constraints for data validation:
-* First name - maximum length of 45 characters;
-* Last name - maximum length of 45 characters;
+* Id - maximum length of 4 digits;
+* Employee Full Name - maximum length of 60 characters;
 * Department - maximum length of 45 characters;
 * Birth date - date in format dd/mm/yy;
 * Salary - maximum length of 8 digits.
@@ -138,8 +138,13 @@ specified period of time.
 
 the list display the following columns:
 
-* Department - name of department;
+* Id - identificator of department;
+* Heads Full Name - first name and last name of departments head;
+* Heads Id - identificator of departments head;
+* Name of Department - name of department;
 * Employees number - number of employees in this department;
+
+![image](https://user-images.githubusercontent.com/64127128/148946546-680946ec-fdf6-4517-a90a-261cd551b5a5.png)
 
 
 ### 1.2 Add Department
