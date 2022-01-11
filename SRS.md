@@ -34,7 +34,7 @@ the list display the following columns:
 * Birth date - date of employee birth;
 * Salary - employees salary; 
 
-![image](https://user-images.githubusercontent.com/64127128/148945647-0cff4242-0645-47b1-8e52-2ac22bca8937.png)
+![image](https://github.com/KernTHeAce/test_task/blob/develop/screenshots/Employee_table.png?raw=true)
 
 
 ### 1.2 Add Employee
