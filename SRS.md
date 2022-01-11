@@ -34,6 +34,8 @@ the list display the following columns:
 * Birth date - date of employee birth;
 * Salary - employees salary; 
 
+![image](https://user-images.githubusercontent.com/64127128/148945438-ba7d948c-80f3-475e-ae8d-a9ed1c115925.png)
+
 
 ### 1.2 Add Employee
 
