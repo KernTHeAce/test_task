@@ -34,7 +34,7 @@ the list display the following columns:
 * Birth date - date of employee birth;
 * Salary - employees salary; 
 
-![image](https://user-images.githubusercontent.com/64127128/148945647-0cff4242-0645-47b1-8e52-2ac22bca8937.png)
+![image](./screenshots/Employee_table.png?raw=true)
 
 
 ### 1.2 Add Employee
@@ -144,7 +144,7 @@ the list display the following columns:
 * Name of Department - name of department;
 * Employees number - number of employees in this department;
 
-![image](https://user-images.githubusercontent.com/64127128/148946546-680946ec-fdf6-4517-a90a-261cd551b5a5.png)
+![image](./screenshots/Department_table.png?raw=true)
 
 
 ### 1.2 Add Department
