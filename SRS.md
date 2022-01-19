@@ -46,8 +46,9 @@ the list display the following columns:
 * User enters employees data and press "Save" button;
 * If any data is entred incorrectly, incorrect data massage are displayed;
 * if entered data is valid, then record is added to database;
-* if error occurs, then error massage displaying;
 * if new employee record is successfully added, then list of employees with added records is displaying.
+
+![image](./screenshots/adding_empl.png?raw=true)
 
 #### Cancel operation scenario:
 
@@ -55,7 +56,6 @@ the list display the following columns:
 * Application displays form to enter employees data;
 * User enters employees data and press "Cancel" button;
 * Data don't save in database, then list of employees resords is displaying to user.
-* If the user select the menu item "Employees" or "Departments", the data will not be saved to the database and the corresponding form with updated data will be opend.
 
 
 When adding a employee, the following details are entred:
@@ -75,9 +75,9 @@ When adding a employee, the following details are entred:
 * User enters employees data and press "Save" button;
 * If any data is entred incorrectly, incorrect data massage are displayed;
 * if entered data is valid, then edited is adding to database;
-* if error occurs, then error massage displaying;
 * if employee record is successfully edited, then list of employees with added records is displaying.
 
+![image](./screenshots/editing_empl.png?raw=true)
 
 #### Cancel operation scenario:
 
@@ -108,10 +108,7 @@ Constraints for data validation:
 #### Main scenario:
 
 * User, while in the list of employees, click the "Delete" button in selected Emloyee line;
-* If the order can be removed, a confirmation dialog is displayed;
-* User confirms the removal of the order;
 * Record is deleted from database;
-* If error occurs, then error message displays;
 * if employee record is successfully deleted, then list of employees with deleted records is displaying.
 
 #### Cancel operation scenario:
@@ -122,8 +119,8 @@ Constraints for data validation:
 * List of employees without changes is displaying.
 
 
-
 ***
+
 
 ## 2. Departments
 ### 2.1 Display list of Departments
@@ -156,8 +153,9 @@ the list display the following columns:
 * User enters employees data and press "Save" button;
 * If any data is entred incorrectly, incorrect data massage are displayed;
 * if entered data is valid, then record is added to database;
-* if error occurs, then error massage displaying;
 * if new department record is successfully added, then list of department with added records is displaying.
+
+![image](./screenshots/adding_dep.png?raw=true)
 
 #### Cancel operation scenario:
 
@@ -165,13 +163,10 @@ the list display the following columns:
 * Application displays form to enter department data;
 * User enters department data and press "Cancel" button;
 * Data don't save in database, then list of department resords is displaying to user.
-* If the user select the menu item "Employees" or "Departments", the data will not be saved to the database and the corresponding form with updated data will be opend.
-
 
 When adding a employee, the following details are entred:
 
 * Name - name of department;
-
 
 ### 2.2 Edit the department
 
@@ -182,9 +177,9 @@ When adding a employee, the following details are entred:
 * User enters department data and press "Save" button;
 * If any data is entred incorrectly, incorrect data massage are displayed;
 * if entered data is valid, then edited is adding to database;
-* if error occurs, then error massage displaying;
 * if department record is successfully edited, then list of department with added records is displaying.
 
+![image](./screenshots/editing_dep.png?raw=true)
 
 #### Cancel operation scenario:
 
@@ -192,8 +187,6 @@ When adding a employee, the following details are entred:
 * Application displays form to enter department data;
 * User enters department data and press "Cancel" button;
 * Data don't save in database, then list of department resords is displaying to user.
-* If the user select the menu item "Employees" or "Departments", the data will not be saved to the database and the corresponding form with updated data will be opend.
-
 
 Pic. 2.3 Edit department.
 
@@ -212,7 +205,6 @@ Constraints for data validation:
 * If the order can be removed, a confirmation dialog is displayed;
 * User confirms the removal of the department;
 * Record is deleted from database;
-* If error occurs, then error message displays;
 * if department record is successfully deleted, then list of department with deleted records is displaying.
 
 #### Cancel operation scenario:
