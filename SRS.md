@@ -1,5 +1,18 @@
 # Departments
 
+## Software
+
+## 1. Technologoes
+
+### 1.1 Programmong languages:
+* Python
+** django
+* HTML
+* CSS
+
+### 1.2 Framework
+
+
 ## Vision
 
 “Departments” is a web application that allows users to record information about employees and departments.
