@@ -16,12 +16,12 @@ Application should provide:
 ## 1. Employees
 ### 1.1 Display list of Employees
 
-The mod is designed to view the list of employees, if it possible to display the number of employees for 
+The mode is designed to view the list of employees, if it possible to display the number of employees for 
 specified period of time.
 
 #### Main scenario:
 
-* User select item "Employees";
+* User select's item "Employees";
 * Application display list of Employees.
 
 Pic. 1.1 View the Employees list.
@@ -41,9 +41,9 @@ the list display the following columns:
 
 #### Main scenario:
 
-* User click the "Add" button in the employees list view mode;
+* User click's the "Add" button in the employees list view mode;
 * Application displays form to enter employees data;
-* User enters employees data and press "Save" button;
+* User enter's employees data and press "Save" button;
 * If any data is entred incorrectly, incorrect data massage are displayed;
 * if entered data is valid, then record is added to database;
 * if new employee record is successfully added, then list of employees with added records is displaying.
