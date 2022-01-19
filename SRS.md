@@ -77,7 +77,7 @@ When adding a employee, the following details are entred:
 * if entered data is valid, then edited is adding to database;
 * if employee record is successfully edited, then list of employees with added records is displaying.
 
-
+![image](./screenshots/editing_empl.png?raw=true)
 
 #### Cancel operation scenario:
 
