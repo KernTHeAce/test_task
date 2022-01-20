@@ -202,4 +202,12 @@ Constraints for data validation:
 * HTML
 * CSS
 
-### 1.2 Framework
+## 2. User Software Requirements
+
+This application is supported on all types of browsers, including their outdated versions. 
+
+## Hardware
+
+## 1. User Hardware Reqirements
+
+This application is supported on all types of devices, with different screen resolutions. This is possible thanks to adapyive layout.
