@@ -1,18 +1,5 @@
 # Departments
 
-## Software
-
-## 1. Technologoes
-
-### 1.1 Programmong languages:
-* Python
-** django
-* HTML
-* CSS
-
-### 1.2 Framework
-
-
 ## Vision
 
 “Departments” is a web application that allows users to record information about employees and departments.
@@ -203,3 +190,16 @@ Constraints for data validation:
 * The user, while in the list of departments, click the "Delete" button in the selected department line;
 * Record is deleted from the database;
 * If the department record is successfully deleted, then the list of departments without deleted records is displayed.
+
+
+## Software
+
+## 1. Technologoes
+
+* Python
+  * Django
+* MySQL
+* HTML
+* CSS
+
+### 1.2 Framework
