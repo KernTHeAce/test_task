@@ -120,6 +120,8 @@ Constraints for data validation:
 * After manipulations with these records the user clicks the "Back" button.
 * Application displayslist of Employees.
 
+![image](./screenshots/Filter_empl.png?raw=true)
+
 #### Cancel operation scenario:
 
 * The user clicks the "Filter by date" button in the employee's list view mode;
@@ -138,6 +140,8 @@ Constraints for data validation:
 * If entered data is valid, then records with field "Birthdate" equal to this date are displayed;
 * After manipulations with these records the user clicks the "Back" button.
 * Application displayslist of Employees.
+
+![image](./screenshots/Find_empl.png?raw=true)
 
 #### Cancel operation scenario:
 
