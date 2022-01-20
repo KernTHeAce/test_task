@@ -16,21 +16,18 @@ The application should provide:
 ## 1. Employees
 ### 1.1 Display list of Employees
 
-The mode is designed to view the list of employees if it is possible to display the number of employees for 
-specified period.
+The mode is designed to view the list of employees.
 
 #### Main scenario:
 
 * User selects an item "Employees";
 * Application display list of Employees.
 
-Pic. 1.1 View the Employees list.
-
 the list displays the following columns:
 
-* Id - identification of employee;
+* Id - identifier of employee;
 * Employee Full Name - first name and last name of the employee;
-* Department - department, where employees work;
+* Department - department, where employee works;
 * Birthdate - date of employee birth;
 * Salary - employee's salary; 
 
@@ -44,9 +41,9 @@ the list displays the following columns:
 * The user clicks the "Add" button in the employee's list view mode;
 * Application displays form to enter employee's data;
 * The user enters employee's data and presses the "Save" button;
-* If any data is entered incorrectly, the incorrect data message is displayed;
+* If any data is entered incorrectly, the "Incorrect Data" message is displayed;
 * If entered data is valid, then the record is added to the database;
-* If a new employee record is successfully added, then the list of employees with added records is displayed.
+* The list of employees with added records is displayed.
 
 ![image](./screenshots/adding_empl.png?raw=true)
 
@@ -55,13 +52,13 @@ the list displays the following columns:
 * The user clicks the "Add" button in the employee's list view mode;
 * Application displays form to enter employee's data;
 * User enters employee's data and presses the "Cancel" button;
-* Data don't save in database, then the list of employees records is displaying to a user.
+* Data isn't saved in database, then the list of employees records is displayed to a user.
 
 When adding an employee, the following details are entered:
 
-* Id - identification of employee;
+* Id - identifier of employee;
 * Employee Full Name - first name and last name of the employee;
-* Department - department, where employees work;
+* Department - department, where employee works;
 * Birthdate - date of employee birth;
 * Salary - employee's salary;
 
@@ -72,9 +69,9 @@ When adding an employee, the following details are entered:
 * The user, while in the list of employees, clicks the "Edit" button in the selected Employee line;
 * Application displays form to enter employee's data;
 * User enters employee's data and presses "Save" button;
-* If any data is entered incorrectly, an incorrect data message is displayed;
-* If entered data is valid, then edited is adding to the database;
-* If employee record is successfully edited, then the list of employees with added records is displayed.
+* If any data is entered incorrectly, the "Incorrect Data" message is displayed;
+* If entered data is valid, then edited record is added to the database;
+* The list of employees with edited record is displayed.
 
 ![image](./screenshots/editing_empl1.png?raw=true)
 
@@ -83,13 +80,13 @@ When adding an employee, the following details are entered:
 * The user, while in the list of employees, click the "Edit" button in the selected Employee line;
 * Application displays form to enter employee's data;
 * User enters employee's data and presses the "Cancel" button;
-* Data don't save in database, then the list of employees records is displaying to a user.
+* Data isn't saved in database, then the list of employees records is displayed to a user.
 
 When editing an employee, the following details are entered:
 
-* Id - identification of employee;
+* Id - identifier of employee;
 * Employee Full Name - first name and last name of the employee;
-* Department - department, where an employee works;
+* Department - department, where employee works;
 * Birthdate - date of employee birth;
 * Salary - employees salary;
 
@@ -106,9 +103,9 @@ Constraints for data validation:
 
 * The user, while in the list of employees, click the "Delete" button in the selected Employee line;
 * Record is deleted from the database;
-* If an employee record is successfully deleted, then the list of employees with deleted records is displayed.
+* The list of employees without deleted record is displayed.
 
-### 1.5 Filtering emploees by date
+### 1.5 Filtering employees by date
 
 #### Main scenario:
 
@@ -116,7 +113,7 @@ Constraints for data validation:
 * Application displays form to enter two dates;
 * The user enters dates and presses the "Filter" button;
 * If any data is entered incorrectly, the incorrect data message is displayed;
-* If entered data is valid, then records with field "Birthdate" from the interval between these two dates are displayed;
+* If entered data is valid, then records with field "Birth date" from the interval between these two dates are displayed;
 * After manipulations with these records the user clicks the "Back" button.
 * Application displayslist of Employees.
 
@@ -126,10 +123,10 @@ Constraints for data validation:
 
 * The user clicks the "Filter by date" button in the employee's list view mode;
 * Application displays form to enter two dates;
-* After manipulations with these records the user clicks the "Back" button.
-* Application displayslist of Employees.
+* The user clicks the "Back" button.
+* Application displays list of Employees.
 
-### 1.6 Finding emploees by date
+### 1.6 Finding employees by date
 
 #### Main scenario:
 
@@ -137,7 +134,7 @@ Constraints for data validation:
 * Application displays form to enter date;
 * The user enters date and presses the "Find" button;
 * If any data is entered incorrectly, the incorrect data message is displayed;
-* If entered data is valid, then records with field "Birthdate" equal to this date are displayed;
+* If entered data is valid, then records with field "Birth date" equal to this date are displayed;
 * After manipulations with these records the user clicks the "Back" button.
 * Application displayslist of Employees.
 
@@ -147,16 +144,15 @@ Constraints for data validation:
 
 * The user clicks the "Find by date" button in the employee's list view mode;
 * Application displays form to enter date;
-* After manipulations with these records the user clicks the "Back" button.
-* Application displayslist of Employees.
+* The user clicks the "Back" button.
+* Application displays list of Employees.
 
 ***
 
 ## 2. Departments
 ### 2.1 Display list of Departments
 
-The mod is designed to view the list of departments if it is possible to display the number of departments for 
-specified period.
+The mode is designed to view the list of departments.
 
 #### Main scenario:
 
@@ -179,9 +175,9 @@ the list displays the following columns:
 * The user clicks the "Add" button in the department's list view mode;
 * Application displays form to enter department's data;
 * The user enters the department's data and presses the "Save" button;
-* If any data is entered incorrectly, an incorrect data message is displayed;
+* If any data is entered incorrectly, the "Incorrect Data" message is displayed;
 * If entered data is valid, then the record is added to the database;
-* If a new department record is successfully added, then the list of departments with added records is displayed.
+* The list of departments with added record is displayed.
 
 ![image](./screenshots/adding_dep.png?raw=true)
 
@@ -203,9 +199,9 @@ When adding a department, the following details are entered:
 * The user, while in the list of departments, click the "Edit" button in the selected department line;
 * Application displays form to enter department's data;
 * The user enters the department's data and presses the "Save" button;
-* If any data is entered incorrectly, an incorrect data message is displayed;
-* If entered data is valid, then edited is adding to the database;
-* If the department's record is successfully edited, then the list of departments with added records is displayed.
+* If any data is entered incorrectly, the "Incorrect Data" message is displayed;
+* If entered data is valid, then edited ercord is added to the database;
+* The list of departments with edited record is displayed.
 
 ![image](./screenshots/editing_dep.png?raw=true)
 
@@ -215,8 +211,6 @@ When adding a department, the following details are entered:
 * Application displays form to enter department's data;
 * The user enters the department's data and presses the "Cancel" button;
 * Data don't save in database, then the list of department records is displaying to a user.
-
-Pic. 2.3 Edit department.
 
 When editing a department, the following details are entered:
 
@@ -231,7 +225,7 @@ Constraints for data validation:
 
 * The user, while in the list of departments, click the "Delete" button in the selected department line;
 * Record is deleted from the database;
-* If the department record is successfully deleted, then the list of departments without deleted records is displayed.
+* The list of departments without deleted records is displayed.
 
 
 ## Software
