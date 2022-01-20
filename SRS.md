@@ -104,9 +104,47 @@ Constraints for data validation:
 
 #### Main scenario:
 
-* User, while in the list of employees, click the "Delete" button in the selected Employee line;
+* The user, while in the list of employees, click the "Delete" button in the selected Employee line;
 * Record is deleted from the database;
 * If an employee record is successfully deleted, then the list of employees with deleted records is displayed.
+
+### 1.5 Filtering emploees by date
+
+#### Main scenario:
+
+* The user clicks the "Filter by date" button in the employee's list view mode;
+* Application displays form to enter two dates;
+* The user enters dates and presses the "Filter" button;
+* If any data is entered incorrectly, the incorrect data message is displayed;
+* If entered data is valid, then records with field "Birthdate" from the interval between these two dates are displayed;
+* After manipulations with these records the user clicks the "Back" button.
+* Application displayslist of Employees.
+
+#### Cancel operation scenario:
+
+* The user clicks the "Filter by date" button in the employee's list view mode;
+* Application displays form to enter two dates;
+* After manipulations with these records the user clicks the "Back" button.
+* Application displayslist of Employees.
+
+### 1.6 Finding emploees by date
+
+#### Main scenario:
+
+* The user clicks the "Find by date" button in the employee's list view mode;
+* Application displays form to enter date;
+* The user enters date and presses the "Find" button;
+* If any data is entered incorrectly, the incorrect data message is displayed;
+* If entered data is valid, then records with field "Birthdate" equal to this date are displayed;
+* After manipulations with these records the user clicks the "Back" button.
+* Application displayslist of Employees.
+
+#### Cancel operation scenario:
+
+* The user clicks the "Find by date" button in the employee's list view mode;
+* Application displays form to enter date;
+* After manipulations with these records the user clicks the "Back" button.
+* Application displayslist of Employees.
 
 ***
 
