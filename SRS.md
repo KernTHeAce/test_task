@@ -2,11 +2,11 @@
 
 ## Vision
 
-“Departments” is web-application witch allows users to record information about employees and departments.
+“Departments” is a web application that allows users to record information about employees and departments.
 
-Application should provide:
+The application should provide:
 
-* Storing departments and employees in database;
+* Storing departments and employees in the database;
 * Display list of departments;
 * Updating the list of departments(adding, editing, removing);
 * Display list of employees;
@@ -16,23 +16,23 @@ Application should provide:
 ## 1. Employees
 ### 1.1 Display list of Employees
 
-The mod is designed to view the list of employees, if it possible to display the number of employees for 
-specified period of time.
+The mode is designed to view the list of employees if it is possible to display the number of employees for 
+specified period.
 
 #### Main scenario:
 
-* User select item "Employees";
+* User selects an item "Employees";
 * Application display list of Employees.
 
 Pic. 1.1 View the Employees list.
 
-the list display the following columns:
+the list displays the following columns:
 
-* Id - identificator of employee;
-* Employee Full Name - first name and last name of employee;
-* Department - department, where employee work;
-* Birth date - date of employee birth;
-* Salary - employees salary; 
+* Id - identification of employee;
+* Employee Full Name - first name and last name of the employee;
+* Department - department, where employees work;
+* Birthdate - date of employee birth;
+* Salary - employee's salary; 
 
 ![image](./screenshots/Employee_table.png?raw=true)
 
@@ -41,59 +41,56 @@ the list display the following columns:
 
 #### Main scenario:
 
-* User click the "Add" button in the employees list view mode;
-* Application displays form to enter employees data;
-* User enters employees data and press "Save" button;
-* If any data is entred incorrectly, incorrect data massage are displayed;
-* if entered data is valid, then record is added to database;
-* if new employee record is successfully added, then list of employees with added records is displaying.
+* The user clicks the "Add" button in the employee's list view mode;
+* Application displays form to enter employee's data;
+* The user enters employee's data and presses the "Save" button;
+* If any data is entered incorrectly, the incorrect data message is displayed;
+* If entered data is valid, then the record is added to the database;
+* If a new employee record is successfully added, then the list of employees with added records is displayed.
 
 ![image](./screenshots/adding_empl.png?raw=true)
 
 #### Cancel operation scenario:
 
-* User click the "Add" button in the employees list view mode;
-* Application displays form to enter employees data;
-* User enters employees data and press "Cancel" button;
-* Data don't save in database, then list of employees resords is displaying to user.
+* The user clicks the "Add" button in the employee's list view mode;
+* Application displays form to enter employee's data;
+* User enters employee's data and presses the "Cancel" button;
+* Data don't save in database, then the list of employees records is displaying to a user.
 
+When adding an employee, the following details are entered:
 
-When adding a employee, the following details are entred:
-
-* Id - identificator of employee;
-* Employee Full Name - first name and last name of employee;
-* Department - department, where employee work;
-* Birth date - date of employee birth;
-* Salary - employees salary;
+* Id - identification of employee;
+* Employee Full Name - first name and last name of the employee;
+* Department - department, where employees work;
+* Birthdate - date of employee birth;
+* Salary - employee's salary;
 
 ### 1.2 Edit the employee
 
 #### Main scenario:
 
-* The user, while in the list of employees, click the "Edit" button in selected Emloyee line;
-* Application displays form to enter employee data;
-* User enters employees data and press "Save" button;
-* If any data is entred incorrectly, incorrect data massage are displayed;
-* if entered data is valid, then edited is adding to database;
-* if employee record is successfully edited, then list of employees with added records is displaying.
+* The user, while in the list of employees, clicks the "Edit" button in the selected Employee line;
+* Application displays form to enter employee's data;
+* User enters employee's data and presses "Save" button;
+* If any data is entered incorrectly, an incorrect data message is displayed;
+* If entered data is valid, then edited is adding to the database;
+* If employee record is successfully edited, then the list of employees with added records is displayed.
 
-![image](./screenshots/editing_empl.png?raw=true)
+![image](./screenshots/editing_empl1.png?raw=true)
 
 #### Cancel operation scenario:
 
-* The user, while in the list of employees, click the "Edit" button in selected Emloyee line;
-* Application displays form to enter employee data;
-* User enters employees data and press "Cancel" button;
-* Data don't save in database, then list of employees resords is displaying to user.
-* If the user select the menu item "Employees" or "Departments", the data will not be saved to the database and the corresponding form with updated data will be opend.
+* The user, while in the list of employees, click the "Edit" button in the selected Employee line;
+* Application displays form to enter employee's data;
+* User enters employee's data and presses the "Cancel" button;
+* Data don't save in database, then the list of employees records is displaying to a user.
 
+When editing an employee, the following details are entered:
 
-When editing a employee, the following details are entred:
-
-* Id - identificator of employee;
-* Employee Full Name - first name and last name of employee;
-* Department - department, where employee work;
-* Birth date - date of employee birth;
+* Id - identification of employee;
+* Employee Full Name - first name and last name of the employee;
+* Department - department, where an employee works;
+* Birthdate - date of employee birth;
 * Salary - employees salary;
 
 Constraints for data validation:
@@ -107,109 +104,110 @@ Constraints for data validation:
 
 #### Main scenario:
 
-* User, while in the list of employees, click the "Delete" button in selected Emloyee line;
-* Record is deleted from database;
-* if employee record is successfully deleted, then list of employees with deleted records is displaying.
-
-#### Cancel operation scenario:
-
-* User, while in the list of employees, click the "Delete" button in selected emloyee line;
-* If the order can be removed, a confirmation dialog is displayed;
-* User press "Cancel" button;
-* List of employees without changes is displaying.
-
+* User, while in the list of employees, click the "Delete" button in the selected Employee line;
+* Record is deleted from the database;
+* If an employee record is successfully deleted, then the list of employees with deleted records is displayed.
 
 ***
-
 
 ## 2. Departments
 ### 2.1 Display list of Departments
 
-The mod is designed to view the list of departments, if it possible to display the number of departments for 
-specified period of time.
+The mod is designed to view the list of departments if it is possible to display the number of departments for 
+specified period.
 
 #### Main scenario:
 
 * User select item "Departments";
 * Application display list of Departments.
 
-the list display the following columns:
+the list displays the following columns:
 
-* Id - identificator of department;
-* Heads Full Name - first name and last name of departments head;
-* Heads Id - identificator of departments head;
-* Name of Department - name of department;
+* Id - identification of department;
+* Name of Department - the name of the department;
 * Employees number - number of employees in this department;
+* Average salary - average salary of employees in this department;
 
 ![image](./screenshots/Department_table.png?raw=true)
-
 
 ### 1.2 Add Department
 
 #### Main scenario:
 
-* User click the "Add" button in the department list view mode;
-* Application displays form to enter department data;
-* User enters employees data and press "Save" button;
-* If any data is entred incorrectly, incorrect data massage are displayed;
-* if entered data is valid, then record is added to database;
-* if new department record is successfully added, then list of department with added records is displaying.
+* The user clicks the "Add" button in the department's list view mode;
+* Application displays form to enter department's data;
+* The user enters the department's data and presses the "Save" button;
+* If any data is entered incorrectly, an incorrect data message is displayed;
+* If entered data is valid, then the record is added to the database;
+* If a new department record is successfully added, then the list of departments with added records is displayed.
 
 ![image](./screenshots/adding_dep.png?raw=true)
 
 #### Cancel operation scenario:
 
-* User click the "Add" button in the department list view mode;
-* Application displays form to enter department data;
-* User enters department data and press "Cancel" button;
-* Data don't save in database, then list of department resords is displaying to user.
+* The user clicks the "Add" button in departments list view mode;
+* Application displays form to enter department's data;
+* The user enters the department's data and presses the "Cancel" button;
+* Data don't save in database, then the list of departments records is displaying to a user.
 
-When adding a employee, the following details are entred:
+When adding a department, the following details are entered:
 
-* Name - name of department;
+* Name of Department - the name of the department;
 
 ### 2.2 Edit the department
 
 #### Main scenario:
 
-* The user, while in the list of department, click the "Edit" button in selected department line;
-* Application displays form to enter department data;
-* User enters department data and press "Save" button;
-* If any data is entred incorrectly, incorrect data massage are displayed;
-* if entered data is valid, then edited is adding to database;
-* if department record is successfully edited, then list of department with added records is displaying.
+* The user, while in the list of departments, click the "Edit" button in the selected department line;
+* Application displays form to enter department's data;
+* The user enters the department's data and presses the "Save" button;
+* If any data is entered incorrectly, an incorrect data message is displayed;
+* If entered data is valid, then edited is adding to the database;
+* If the department's record is successfully edited, then the list of departments with added records is displayed.
 
 ![image](./screenshots/editing_dep.png?raw=true)
 
 #### Cancel operation scenario:
 
-* The user, while in the list of employees, click the "Edit" button in selected department line;
-* Application displays form to enter department data;
-* User enters department data and press "Cancel" button;
-* Data don't save in database, then list of department resords is displaying to user.
+* The user, while in the list of departments, click the "Edit" button in the selected department line;
+* Application displays form to enter department's data;
+* The user enters the department's data and presses the "Cancel" button;
+* Data don't save in database, then the list of department records is displaying to a user.
 
 Pic. 2.3 Edit department.
 
-When editing a department, the following details are entred:
+When editing a department, the following details are entered:
 
-* Name - name of department;
+* Name of Department - the name of the department;
 
 Constraints for data validation:
-* Name - maximum length of 45 characters;
+* Name of Department - maximum length of 45 characters;
 
 ### 1.4 Removing the department
 
 #### Main scenario:
 
-* User, while in the list of department, click the "Delete" button in selected department line;
-* If the order can be removed, a confirmation dialog is displayed;
-* User confirms the removal of the department;
-* Record is deleted from database;
-* if department record is successfully deleted, then list of department with deleted records is displaying.
+* The user, while in the list of departments, click the "Delete" button in the selected department line;
+* Record is deleted from the database;
+* If the department record is successfully deleted, then the list of departments without deleted records is displayed.
 
-#### Cancel operation scenario:
 
-* User, while in the list of department, click the "Delete" button in selected department line;
-* If the order can be removed, a confirmation dialog is displayed;
-* User press "Cancel" button;
-* List of departments without changes is displaying.
+## Software
+
+## 1. Technologoes
+
+* Python
+  * Django
+* MySQL
+* HTML
+* CSS
+
+## 2. User Software Requirements
+
+This application is supported on all types of browsers, including their outdated versions. 
+
+## Hardware
+
+## 1. User Hardware Reqirements
+
+This application is supported on all types of devices, with different screen resolutions. This is possible thanks to adapyive layout.
