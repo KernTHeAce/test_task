@@ -70,7 +70,7 @@ When adding an employee, the following details are entered:
 * Application displays form to enter employee's data;
 * User enters employee's data and presses "Save" button;
 * If any data is entered incorrectly, the "Incorrect Data" message is displayed;
-* If entered data is valid, then edited record is added to the database;
+* If entered data is valid, then the corrected records replace the corresponding entries in the database;
 * The list of employees with edited record is displayed.
 
 ![image](./screenshots/editing_empl1.png?raw=true)
@@ -200,7 +200,7 @@ When adding a department, the following details are entered:
 * Application displays form to enter department's data;
 * The user enters the department's data and presses the "Save" button;
 * If any data is entered incorrectly, the "Incorrect Data" message is displayed;
-* If entered data is valid, then edited ercord is added to the database;
+* If entered data is valid, then the corrected records replace the corresponding entries in the database;
 * The list of departments with edited record is displayed.
 
 ![image](./screenshots/editing_dep.png?raw=true)
@@ -225,6 +225,7 @@ Constraints for data validation:
 
 * The user, while in the list of departments, click the "Delete" button in the selected department line;
 * Record is deleted from the database;
+* Employees, attached to this department are deleted;
 * The list of departments without deleted records is displayed.
 
 
@@ -246,4 +247,4 @@ This application is supported on all types of browsers, including their outdated
 
 ## 1. User Hardware Reqirements
 
-This application is supported on all types of devices, with different screen resolutions. This is possible thanks to adapyive layout.
+This application is supported on all types of devices, with different screen resolutions. This is possible thanks to adaptive layout.
