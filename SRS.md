@@ -41,7 +41,7 @@ the list displays the following columns:
 * The user clicks the "Add" button in the employee's list view mode;
 * Application displays form to enter employee's data;
 * The user enters employee's data and presses the "Save" button;
-* If any data is entered incorrectly, the "Incorrect Data" message is displayed. You should enter correct data and press the "Save" button or press the "Cancel" button;
+* If any data is entered incorrectly, the "Incorrect Data" message is displayed. User should enter correct data and press the "Save" button or press the "Cancel" button(see "Cancel operation scenario");
 * If entered data is valid, then the record is added to the database;
 * The list of employees with added records is displayed.
 
@@ -69,7 +69,7 @@ When adding an employee, the following details are entered:
 * The user, while in the list of employees, clicks the "Edit" button in the selected Employee line;
 * Application displays form to enter employee's data;
 * User enters employee's data and presses "Save" button;
-* If any data is entered incorrectly, the "Incorrect Data" message is displayed. You should enter correct data and press the "Save" button or press the "Cancel" button;
+* If any data is entered incorrectly, the "Incorrect Data" message is displayed. User should enter correct data and press the "Save" button or press the "Cancel" button(see "Cancel operation scenario");
 * If entered data is valid, then the corrected records replace the corresponding entries in the database;
 * The list of employees with edited record is displayed.
 
@@ -112,7 +112,7 @@ Constraints for data validation:
 * The user clicks the "Filter by date" button in the employee's list view mode;
 * Application displays form to enter two dates;
 * The user enters dates and presses the "Filter" button;
-* If any data is entered incorrectly, the "Incorrect Data" message is displayed. You should enter correct data and press the "Save" button or press the "Cancel" button;
+* If any data is entered incorrectly, the "Incorrect Data" message is displayed. User should enter correct data and press the "Save" button or press the "Cancel" button(see "Cancel operation scenario");
 * If entered data is valid, then records with field "Birth date" from the interval between these two dates are displayed;
 * After manipulations with these records the user clicks the "Back" button.
 * Application displayslist of Employees.
@@ -133,7 +133,7 @@ Constraints for data validation:
 * The user clicks the "Find by date" button in the employee's list view mode;
 * Application displays form to enter date;
 * The user enters date and presses the "Find" button;
-* If any data is entered incorrectly, the "Incorrect Data" message is displayed. You should enter correct data and press the "Save" button or press the "Cancel" button;
+* If any data is entered incorrectly, the "Incorrect Data" message is displayed. User should enter correct data and press the "Save" button or press the "Cancel" button(see "Cancel operation scenario");
 * If entered data is valid, then records with field "Birth date" equal to this date are displayed;
 * After manipulations with these records the user clicks the "Back" button.
 * Application displayslist of Employees.
@@ -175,7 +175,7 @@ the list displays the following columns:
 * The user clicks the "Add" button in the department's list view mode;
 * Application displays form to enter department's data;
 * The user enters the department's data and presses the "Save" button;
-* If any data is entered incorrectly, the "Incorrect Data" message is displayed. You should enter correct data and press the "Save" button or press the "Cancel" button;
+* If any data is entered incorrectly, the "Incorrect Data" message is displayed. User should enter correct data and press the "Save" button or press the "Cancel" button(see "Cancel operation scenario");
 * If entered data is valid, then the record is added to the database;
 * The list of departments with added record is displayed.
 
@@ -199,7 +199,7 @@ When adding a department, the following details are entered:
 * The user, while in the list of departments, click the "Edit" button in the selected department line;
 * Application displays form to enter department's data;
 * The user enters the department's data and presses the "Save" button;
-* If any data is entered incorrectly, the "Incorrect Data" message is displayed. You should enter correct data and press the "Save" button or press the "Cancel" button;
+* If any data is entered incorrectly, the "Incorrect Data" message is displayed. User should enter correct data and press the "Save" button or press the "Cancel" button(see "Cancel operation scenario");
 * If entered data is valid, then the corrected records replace the corresponding entries in the database;
 * The list of departments with edited record is displayed.
 
