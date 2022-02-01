@@ -4,9 +4,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>Departments</title>
-    <link rel="stylesheet" href="E:/python_code/epam_task/static/css/styles.css" />
-    <link rel="stylesheet" href="E:/python_code/epam_task/static/css/empl_styles.css" />
-    <link rel="stylesheet" href="E:/python_code/epam_task/static/css/reset.css" />
+    <link rel="stylesheet" href="../static/css/styles.css" />
+    <link rel="stylesheet" href="../static/css/empl_styles.css" />
+    <link rel="stylesheet" href="../static/css/reset.css" />
 
     
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=monzerat:500,600,700">
@@ -17,8 +17,7 @@
     <div class="wrapper">
         <div class="header">
             <div class="top-menu">
-                <a href="/department/"><div class="department">DEPARTMENTS</div></a>
-                <a href="/employee/"><div class="employee">EMPLOYEES</div></a>
+                <a href="employees.html" class="filter_button button">Back</a>
             </div>
 
             <div class="title">
@@ -27,9 +26,17 @@
 
             <div class="button_group">
 
-                <a href="filter/" class="filter_button button">Filter</a>
-                <a href="find/" class="find_button button">Find</a>
-                <a href="new/" class="add_button button">Add</a>
+                
+                <div class="filter">
+                    <p>from</p>
+                    <input class="input" type="text" placeholder="01/01/2001" />
+                </div>
+                
+                <div class="by">
+                    <p>by</p>
+                    <input class="input" type="text" placeholder="01/01/2001" />
+                </div>
+                <a href="" class="filter_button button">Filter</a>
             
             </div>
 
