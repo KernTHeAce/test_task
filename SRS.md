@@ -239,6 +239,12 @@ Constraints for data validation:
 * HTML
 * CSS
 
+## Restrictions
+
+* The application will be capable to store up to 10 000 persons
+* Person may work just in one department
+
+
 ## 2. User Software Requirements
 
 This application is supported on all types of browsers, including their outdated versions. 
